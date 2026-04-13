@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LWB</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+      <h1 class="title">Hello! Thank you for showing an interest in my qualifications! They are separated by fields, so please click one of them on the navigation bar!</h1>
+      <p id="currentTime"></p>
+      
+      <!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+
+  <ul class="navbar-nav">
+    <li><a href="#smallies">Small animals</a></li>
+    <li><a href="#large">Large animals</a></li>
+    <li><a href="#misc">Miscellaneous</a></li>
+
+</nav>
+
+<!-- Small animals -->
+<div id="smallies">
+  <h1>Small animals</h1>
+  
+  <h2>Certifications & CPD</h2>
+  <p>Try to scroll this page and look at the navigation bar while scrolling!</p>
+  
+  <h2>Presentations and scientific publications</h2>
+  <p>XXXXXXXXXXXXXXXXX!</p>
+</div>
+
+<!-- Large animals -->
+<div id="large">
+  <h1>Large animals</h1>
+  
+  <h2>Certifications & CPD</h2>
+  <p>Try to scroll this page and look at the navigation bar while scrolling!</p>
+  
+  <h2>Presentations and scientific publications</h2>
+  <p>XXXXXXXXXXXXXXXXX!</p>
+</div>
+
+<!-- misc -->
+<div id="misc">
+  <h1>Miscellaneous</h1>
+  
+  <h2>Certifications & CPD</h2>
+  <p>XXXXXXXXXXXXXXXXX!</p>
+  
+  <h2>Presentations and scientific publications</h2>
+  <p>XXXXXXXXXXXXXXXXX!</p>
+</div>
+
+
+
+
+  </body>
+</html>
